@@ -78,11 +78,11 @@
 
             display-name = "Sm & Mv";
             bindings = <
-&to 0   &trans  &kp AMPERSAND    &kp ASTERISK  &kp BACKSLASH  &trans                              &trans  &trans          &trans          &trans           &trans   &trans
-&trans  &trans  &kp DOLLAR       &kp PERCENT   &kp CARET      &kp LG(TAB)                         &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp ESC  &trans
-&trans  &trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp LC(LEFT_GUI)                    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans  &trans  &trans           &trans        &trans         &trans            &trans    &trans  &trans  &trans          &kp RIGHT_ALT   &trans           &trans   &trans
-                                 &trans        &to 1          &trans            &trans    &trans  &trans  &to 0           &trans
+&to 0   &trans  &kp AMPERSAND    &kp ASTERISK  &kp BACKSLASH  &trans                              &trans         &trans          &trans          &trans           &trans   &trans
+&trans  &trans  &kp DOLLAR       &kp PERCENT   &kp CARET      &kp LG(TAB)                         &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp ESC  &trans
+&trans  &trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp LC(LEFT_GUI)                    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&trans  &trans  &trans           &trans        &trans         &trans            &trans    &trans  &trans         &trans          &kp RIGHT_ALT   &trans           &trans   &trans
+                                 &trans        &to 1          &trans            &trans    &trans  &trans         &to 0           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
