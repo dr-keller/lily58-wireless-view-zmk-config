@@ -44,8 +44,6 @@
 &kp LSHFT     &mt LCTRL Z  &kp X   &kp C     &kp V   &kp B      &kp LBKT         &kp RBKT  &kp N      &kp M   &kp COMMA      &kp DOT  &mt RCTRL FSLH  &kp RSHFT
                                    &kp LALT  &to 1   &kp SPACE  &kp BACKSPACE    &kp TAB   &kp ENTER  &to 2   &kp RIGHT_ALT
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
